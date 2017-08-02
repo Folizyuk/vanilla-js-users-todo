@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "node_modules/.bin/webpack && node_modules/.bin/http-server -a localhost -p 8080 -c-1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "es6-promise": "^4.1.1",
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^1.13.2",
+    "babel-loader": "^6.2.5"
+  }
+}

@@ -1,0 +1,32 @@
+body {
+    padding-top: 30px;
+}
+.todo-list {
+    list-style: none;
+    border: 1px solid #000;
+}
+
+.list-header {
+    border: 1px solid #000;
+    background-color: #f9f9f9;
+}
+
+.list-header .row div {
+    height: 50px;
+    padding-top: 8px;
+}
+
+.list-header .row div:first-child {
+    text-align: center;
+    line-height: 33px;
+}
+
+.todo-list .row{
+    margin: 0;
+    padding: 6px 0;
+    border-bottom: 1px solid #000;
+}
+
+.todo-list .row:last-child {
+    border-bottom: none;
+}
